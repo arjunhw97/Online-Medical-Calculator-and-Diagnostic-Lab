@@ -98,19 +98,19 @@ In order to login as the admin, go to the Log in page and enter the following cr
 **Database Name - medi**
 
 ### USERINFO TABLE
-S.No  | Field name | Data Type   | Description            | Constraints 
------- ------------ ------------- ------------------------ -------------
-1     | firstname  | Varchar(20) | First name of the user	
-2	  | lastname   | Varchar(20) | Last name of the user	
-3	  | gender	   | Varchar(20) | Gender of the user	
-4	  | dateofbirth| date	     | Date of Birth	
-5	  | username   | Varchar(20) | Username of the user   | Primary Key
-6	  | password   | Varchar(20) | Password of the user	
-7	  | address	   | Varchar(100)| Address of the user	
-8	  | Phoneno:   | Varchar(10) | Phone Number	
-9	  | email	   | Varchar(20) | E-mail Address	
-10	  | height	   | Int(3)	     | Height of the user	
-11	  | weight	   | Int(3)	     | Weight of the user	
+| S.No  | Field name | Data Type   | Description            | Constraints |
+|------- ------------ ------------- ------------------------ -------------
+| 1     | firstname  | Varchar(20) | First name of the user |	
+| 2	  | lastname   | Varchar(20) | Last name of the user |	
+| 3	  | gender	   | Varchar(20) | Gender of the user |	
+| 4	  | dateofbirth| date	     | Date of Birth	|
+| 5	  | username   | Varchar(20) | Username of the user   | Primary Key |
+| 6	  | password   | Varchar(20) | Password of the user	|
+| 7	  | address	   | Varchar(100)| Address of the user  |	
+| 8	  | Phoneno:   | Varchar(10) | Phone Number	    |
+| 9	  | email	   | Varchar(20) | E-mail Address	|
+| 10	  | height	   | Int(3)	     | Height of the user |	
+| 11	  | weight	   | Int(3)	     | Weight of the user |	
 
 
 **Contains informtion regarding registered users in this table**
