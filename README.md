@@ -88,6 +88,7 @@ The Admin has the potential to add/remove lab technicians, remove users and view
 In order to login as the admin, go to the Log in page and enter the following credentials - 
 
 **Username: admin**
+<br>
 **Password: 9596**
 
 
@@ -98,19 +99,19 @@ In order to login as the admin, go to the Log in page and enter the following cr
 **Database Name - medi**
 
 ### USERINFO TABLE
-| S.No  | Field name | Data Type   | Description            | Constraints |
-|------- ------------ ------------- ------------------------ -------------
-| 1     | firstname  | Varchar(20) | First name of the user |	
-| 2	  | lastname   | Varchar(20) | Last name of the user |	
-| 3	  | gender	   | Varchar(20) | Gender of the user |	
-| 4	  | dateofbirth| date	     | Date of Birth	|
-| 5	  | username   | Varchar(20) | Username of the user   | Primary Key |
-| 6	  | password   | Varchar(20) | Password of the user	|
-| 7	  | address	   | Varchar(100)| Address of the user  |	
-| 8	  | Phoneno:   | Varchar(10) | Phone Number	    |
-| 9	  | email	   | Varchar(20) | E-mail Address	|
-| 10	  | height	   | Int(3)	     | Height of the user |	
-| 11	  | weight	   | Int(3)	     | Weight of the user |	
+S.No   | Field name  | Data Type   | Description            | Constraints 
+------ | ----------- | ----------- | ---------------------- | -------------
+1      | firstname   | Varchar(20) | First name of the user	
+2	   | lastname    | Varchar(20) | Last name of the user	
+3	   | gender	     | Varchar(20) | Gender of the user	
+4	   | dateofbirth | date	       | Date of Birth	
+5	   | username    | Varchar(20) | Username of the user   | Primary Key
+6	   | password    | Varchar(20) | Password of the user	
+7	   | address	 | Varchar(100)| Address of the user	
+8	   | Phoneno:    | Varchar(10) | Phone Number	
+9	   | email	     | Varchar(20) | E-mail Address	
+10	   | height	     | Int(3)	   | Height of the user	
+11	   | weight	     | Int(3)	   | Weight of the user	
 
 
 **Contains informtion regarding registered users in this table**
@@ -118,7 +119,7 @@ In order to login as the admin, go to the Log in page and enter the following cr
 	
 ### TESTS TABLE
 S.No  | Field name | Data Type    | Description          
------- ------------ -------------- ------------------------
+----- | ---------- | ------------ | ------------------------
 1	  | testname   | Varchar(100) | Name of the test
 2	  | username   | Varchar(20)  | Username of the user  
 3	  | value	   | Varchar(30)  |	Result of the test
@@ -134,7 +135,7 @@ S.No  | Field name | Data Type    | Description
 ### TEST_LIST TABLE
 
 S.No  | Field name | Data Type    | Description          | Constraints 
------- ------------ -------------- ---------------------- -------------------
+----- | ---------- | ------------ | -------------------- | -------------------
 1	  | testname   | Varchar(100) | Name of the test     
 2	  | visits	   | Varchar(30)  |	No: of visits	     | Default Value = 0
 3	  | filename   | Varchar(30)  |	Filename of the test	
@@ -145,7 +146,7 @@ S.No  | Field name | Data Type    | Description          | Constraints
 
 ### LABTECH TABLE
 S.No  | Field name | Data Type   | Description              | Constraints 
------- ------------ ------------- -------------------------- -------------
+----- | ---------- | ----------- | ------------------------ | -------------
 1	  | id         | Int(11)     | Id of the lab technician | Primary Key
 2	  | firstname  | Varchar(20) | First name 	
 3	  | lastname   | Varchar(20) | Last name	
@@ -159,7 +160,7 @@ S.No  | Field name | Data Type   | Description              | Constraints
 
 ### LEQUIP TABLE
 S.No  | Field name | Data Type   | Description       | Constraints 
------- ------------ ------------- ------------------- -------------
+----- | ---------- | ----------- | ----------------- | -------------
 1	  | eq_name	   | Varchar(50) | Name of Equipment | Primary Key
 2	  | available  | Int(4)	     | Available number 	
 3	  | maximum	   | Int(4)	     | Maximum number	
