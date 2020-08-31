@@ -1,0 +1,102 @@
+
+body{
+    background: #eee;
+    width: 100%;
+    height: 100%;
+    background: url('images/labtech.jpg') no-repeat 50% 10%;
+    position: relative;
+}
+
+.container{
+    width: 650px; 
+    height: 570px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background: #1181EE;
+    opacity: 0.9;
+    
+}
+
+.styled-select {
+   position: absolute;
+   margin-left: 200px;
+   margin-top: 200px;
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url('images/down_arrow_select.jpg') no-repeat right #ddd;
+   border: 1px solid #3C3C3C;
+   }
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+
+
+.l1{
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial;
+    color:white;
+    padding-left: 10px;
+}
+
+.btn1 {
+    position: absolute;
+    background: #34f315;
+    width: 120px;
+    border: 0;
+    margin-top :300px;
+    margin-left: 250px;
+    padding: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+.btn{    
+         width: 140px;
+         height: 40px;
+         background: #34f315;
+         font-size: 14px;
+         margin-right: 10%;
+         font-weight: bold;
+         border-radius: 5px;
+         border: none;
+         color: #fff;
+         position: absolute;
+         right: 0px; 
+      
+     }
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

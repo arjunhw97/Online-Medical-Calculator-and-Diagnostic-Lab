@@ -1,0 +1,22 @@
+a.before:before,a.after:after{
+  height:5px;
+  height:0.35rem;
+  width:0;
+  background:#d73444;
+}
+
+
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+
+ }
+
+ <div class="wrapper">
+  <a class="seventh before after" href="#">Top & Bottom // Opposite Start</a>
+</div>
+
+#81b3d2

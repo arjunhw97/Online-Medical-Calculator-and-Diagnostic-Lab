@@ -1,0 +1,189 @@
+     body{
+        background: #eee;
+        width: 100%;
+        height: 100%;
+        background: url('images/labtech.jpg');
+        background-size: 100%;
+        position: absolute;
+        
+     }
+      
+     
+     .container{
+         width: 960px;
+         height: 600px;
+         position: relative;
+         margin:auto;
+     }
+     
+     nav>ul{
+         position: absolute;
+         right: 200px;
+     }
+     
+     nav>ul>li{
+         list-style: none;
+         float: left;
+        
+     }
+     nav>ul>li>a{
+         text-decoration: none;
+         font-family: Arial;
+         color: #fff;
+         font-size: 14px;
+         font-weight: bold;
+         padding: 0 20px 0 20px;
+     }
+
+     nav>ul>li>a:hover {
+          background-color: green;
+     }
+     
+     .btn{
+         width: 130px;
+         height: 40px;
+         background: #34f315;
+         font-size: 14px;
+         font-weight: bold;
+         border-radius: 5px;
+         border: none;
+         color: #fff;
+         position: absolute;
+        right: 0px; 
+      
+     }
+      
+     
+     
+     
+     .header{
+         padding-top: 15px;
+     }
+     
+     .q1{
+         color: red;
+         font-size: 60px;
+         position: absolute;
+         padding-top: 55px;
+         margin-left: 350PX;
+         font-family: Arial;
+         
+     }
+     .q2{
+         color: #34f315;
+         font-size: 50px;
+         position: absolute;
+         padding-top: 160px;
+         margin-left: 420PX;
+         font-family: Arial;
+         
+     }
+     
+     .q3{
+         position: absolute;
+         right: 0px;
+         bottom: 0px;
+         font-family: Arial;
+         color: #eee;
+         font-size: 15px;
+         font-weight: lighter;
+         margin-right: 18px;
+     }
+     
+    .outerbox {
+      width: 1000px;
+      height: 650px;
+      position: absolute;
+      margin-left: 0px;
+      margin-top: 105px;
+      border-radius: 10px;
+      background: #1181EE;
+      
+    }
+    
+    .innerbox1{
+        width: 250px;
+      height: 250px;
+      position: absolute;
+      margin-left: 30px;
+      margin-top: 255px;
+      border-radius: 10px;
+      background: #f5f5dc; 
+      background-image: url("images/right_labs.svg");
+      background-size: 250px 250px;
+      
+    }
+    
+    .innerbox2{
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      margin-left: 315px;
+      margin-top: 255px;
+      border-radius: 10px;
+      background: #f5f5dc; 
+      background-image: url("images/gif2.gif");
+      background-size: 250px 250px;
+    }
+    
+    .innerbox3{
+        width: 250px;
+      height: 250px;
+      position: absolute;
+      margin-left: 600px;
+      margin-top: 255px;
+      border-radius: 10px;
+      background: #f5f5dc; 
+      background-image: url("images/parent.gif");
+      background-size: 250px 250px;
+    }
+    
+    .btn1{
+         width: 130px;
+         height: 40px;
+         background: #34f315;
+         font-size: 14px;
+         font-weight: bold;
+         border-radius: 5px;
+         border: none;
+         color: #fff;
+         position: absolute;
+         bottom: 0px;
+         margin-left: 80px;
+         margin-bottom: 30px;
+      
+     }
+     
+     .btn2{
+         width: 130px;
+         height: 40px;
+         background: #34f315;
+         font-size: 14px;
+         font-weight: bold;
+         border-radius: 5px;
+         border: none;
+         color: #fff;
+         position: absolute;
+         bottom: 0px;
+         margin-left: 380px;
+         margin-bottom: 30px;
+      
+     }
+     
+     .btn3{
+         width: 130px;
+         height: 40px;
+         background: #34f315;
+         font-size: 14px;
+         font-weight: bold;
+         border-radius: 5px;
+         border: none;
+         color: #fff;
+         position: absolute;
+         bottom: 0px;
+         margin-left: 665px;
+         margin-bottom: 30px;
+         
+     }
+     
+    

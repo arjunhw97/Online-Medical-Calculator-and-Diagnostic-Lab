@@ -1,0 +1,19 @@
+INVENTORY - Mytests
+
+checkbox - horizontal
+
+buttons
+
+logout
+
+lab tech - userinfo
+
+admin - change cost of equipments
+
+payment - previously ordered
+
+date along with mytests
+
+bad and good results report
+
+comparison between individual tests
